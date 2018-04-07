@@ -7,14 +7,85 @@ h6{
     font-family: "Montserrat", sans-serif;
 }
 
+a {
+    cursor: pointer;
+}
+
 .home-hero{
     margin-bottom: 50px;
 }
 
-.blue-sidebar{
-    /*width: 24%;*/
+.City {
+    font-family: "Montserrat",sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
     margin: 0;
-    margin-right: 4%;
+    color: #e56f00;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    white-space: nowrap;
+}
+
+.City:hover {
+    color: #e56f00;
+    border-bottom: 2px solid #e56f00;
+    text-decoration: none;
+}
+
+.Mayor {
+    font-family: "Montserrat",sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+    color: #10475a;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    white-space: nowrap;
+}
+
+.Mayor:hover {
+    color: #10475a;
+    border-bottom: 2px solid #10475a;
+    text-decoration: none;
+}
+
+.bg-light{
+    background-color: #fff;
+    border-bottom: 2px solid #10475a;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(16, 71, 90);
+    z-index: 999999;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid #eaeaea;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
+.nav-fill a {
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    color: #6a6a6a;
+    margin-bottom: 0;
+    padding: 21px 0;
+    max-width: 86em;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    position: relative;
+    height: 70px;
+   
+}
+
+.btn-nav-link:hover{
+    border-bottom: 5px solid #e56f00;
+    text-decoration: none;
 }
 
 .news{
@@ -89,7 +160,7 @@ h6{
     background: #005d73;
     background-color: rgb(0, 93, 115);
     margin: 0;
-    padding: 24px 0 25px 9%;
+    padding: 25px 0 25px 10%;
     font-size: .875rem;
     line-height: 1.3125rem;
     letter-spacing: .06375rem;
@@ -98,7 +169,8 @@ h6{
 .top-requests{
     background: #10475a;
     background-color: rgb(16, 71, 90);
-    padding: 25px 9%;
+    padding: 25px 0;
+    margin: 0;
     color: #333;
     font-family: Source Sans Pro,sans-serif;
     font-size: 1em;
@@ -107,13 +179,27 @@ h6{
 
 .top-requests a {
     display: block;
-    list-style-type: disc;
-    list-style-type: none;
     margin: 0;
     padding: 0;
     color: #cecece;
     font-family: "Montserrat",sans-serif;
     margin-bottom: 13px;
+    transition: color .15s ease;
+    text-decoration: none;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0;
+    text-align: left;
+    list-style-type: disc;
+}
+
+.top-requests a:hover{
+    color: #fff;
+}
+
+li {
+    padding: 0;
+    list-style-type: none;
 }
 
 .helpful-container .help-primary {
@@ -121,19 +207,14 @@ h6{
     font-family: Montserrat,sans-serif;
     font-weight: 700;
     color: #10475a;
-    margin: 0 0 16px;
+    margin: 0 0 16px 0;
     display: block;
-    -webkit-margin-before: 0.67em;
-    -webkit-margin-after: 0.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
     font-size: .875rem;
     line-height: 1.3125rem;
     letter-spacing: .0375rem;
 }
 .helpful-container .fig-btn{
-    color: #e56f00;
+    color: #fff;
     background: #e56f00;
     width: 100%;
     text-align: center;
@@ -141,7 +222,6 @@ h6{
     padding-bottom: 28px;
     text-transform: uppercase;
     font-family: "Montserrat",sans-serif;
-    background-color: #fff;
     border: 2px solid #e56f00;
     border-radius: 0;
     cursor: pointer;
@@ -149,18 +229,40 @@ h6{
     font-size: .875rem;
     line-height: 1.3125rem;
     letter-spacing: .0075rem;
-    -webkit-font-smoothing: antialiased;
     font-weight: 400;
     padding: 1em;
     text-decoration: none;
-    -webkit-transition: background-color .15s ease;
     transition: background-color .15s ease;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
+}
+
+.fig-btn:hover {
+    background-color: #fff;
+    border: 2px solid #e56f00;
+    border-radius: 0;
+    color: #e56f00;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    letter-spacing: .0075rem;
+    line-height: 1.3125rem;
+    padding: 1em;
+    text-decoration: none;
+    transition: background-color .15s ease;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
 }
 
 .arrow:before{
@@ -181,10 +283,11 @@ h6{
     width:30px;
 }
 
-.news span.time{
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+.news meta{
+    margin-top: 24px;
+}
+
+.news .time{
     color: #10475a;
     font-family: "Alegreya Sans",sans-serif;
     font-weight: 500;
