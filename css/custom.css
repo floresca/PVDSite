@@ -1,0 +1,204 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Montserrat", sans-serif;
+}
+
+.home-hero{
+    margin-bottom: 50px;
+}
+
+.blue-sidebar{
+    /*width: 24%;*/
+    margin: 0;
+    margin-right: 4%;
+}
+
+.news{
+    float: left;
+    width: 49%;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    margin-bottom: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 0;
+}
+
+.news h5{
+    color: #3894ac;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0;
+}
+
+.news p {
+    color: #6a6a6a;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    padding: 0;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0;
+}
+
+.news a {
+    color: #e56f00;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-left: 0;
+    position: relative;
+    font-weight: 700;
+}
+
+.notification-center{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    display: block;
+    color: #333;
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.helpful-container{
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    letter-spacing: .0375rem;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    color: #10475a;
+    margin: 0 0 16px;
+    margin-bottom: 24px;
+}
+
+.requests-title{
+    color: #fff;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    background: #005d73;
+    background-color: rgb(0, 93, 115);
+    margin: 0;
+    padding: 24px 0 25px 9%;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    letter-spacing: .06375rem;
+}
+
+.top-requests{
+    background: #10475a;
+    background-color: rgb(16, 71, 90);
+    padding: 25px 9%;
+    color: #333;
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.top-requests a {
+    display: block;
+    list-style-type: disc;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #cecece;
+    font-family: "Montserrat",sans-serif;
+    margin-bottom: 13px;
+}
+
+.helpful-container .help-primary {
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: #10475a;
+    margin: 0 0 16px;
+    display: block;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    letter-spacing: .0375rem;
+}
+.helpful-container .fig-btn{
+    color: #e56f00;
+    background: #e56f00;
+    width: 100%;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    background-color: #fff;
+    border: 2px solid #e56f00;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    letter-spacing: .0075rem;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    padding: 1em;
+    text-decoration: none;
+    -webkit-transition: background-color .15s ease;
+    transition: background-color .15s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.arrow:before{
+    content: '';
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDE2IDE2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IHNrZXRjaHRvb2wgMzkuMSAoMzE3MjApIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPkZCNTk5MTc4LTc3M0YtNDI1MS04RTgyLTE5QjkxQjYyRDU4MjwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggc2tldGNodG9vbC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iQm90dG9tLU5hdi0tLUFwcHJvdmVkIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0icHZkX2JvdHRvbW5hdl9leHBhbmRlZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQyMC4wMDAwMDAsIC0xMDExLjAwMDAwMCkiIGZpbGw9IiNFMzZGMUUiPgogICAgICAgICAgICA8ZyBpZD0iYXJyb3ciIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQyMC4wMDAwMDAsIDEwMTEuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAiPgogICAgICAgICAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJTaGFwZSIgcG9pbnRzPSI3LjUgMTAuNSAwIDEwLjUgMCA1LjUgNy41IDUuNSA3LjUgNi41IDEgNi41IDEgOS41IDcuNSA5LjUiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iU2hhcGUiIHBvaW50cz0iNi41IDE1LjU1MDUgNi41IDExLjUgNy41IDExLjUgNy41IDEzLjQ0OTUgMTQuMjA3IDggNy41IDIuNTUwNSA3LjUgNC41IDYuNSA0LjUgNi41IDAuNDQ5NSAxNS43OTMgOCI+PC9wb2x5Z29uPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=);
+    width: 25px;
+    height: 13px;
+    display: inline-block;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: 0 0 0 5%;
+}
+
+.arrow{
+    position: relative;
+    float:right;
+    width:30px;
+}
+
+.news span.time{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #10475a;
+    font-family: "Alegreya Sans",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3125rem;
+    letter-spacing: 0;
+    margin-right: 20%;
+}
+
+.news meta{
+    margin-top: 24px;
+}
+
+.read-more{
+    display: inline-block;
+}
+
